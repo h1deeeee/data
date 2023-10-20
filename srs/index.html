@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style/styles.css">
+    <title>Создать таблицу</title>
+</head>
+<body>
+    <div class="container">
+        <input type="text" id="folderName" placeholder="Название папки">
+        <input type="text" id="quantity" placeholder="Количество">
+        <input type="text" id="content" placeholder="Содержимое">
+        <button onclick="addItem()">Add</button>
+        <table id="table">
+            <tr>
+                <th>Папка</th>
+            </tr>
+        </table>
+        <button id="copyButton">Копировать строку</button>
+    </div>
+    <script src="./script/script.js"></script>
+</body>
+</html>
